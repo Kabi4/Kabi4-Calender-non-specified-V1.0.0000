@@ -1,0 +1,11 @@
+ul{
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: repeat(8,150px);
+	grid-template-rows:150px 150px 150px 150px;
+}
+li{
+	background-color:cyan;
+	list-style-type:none;
+	color:black;
+}
